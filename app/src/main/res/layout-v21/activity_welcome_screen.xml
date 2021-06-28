@@ -42,6 +42,7 @@
 
 
         <Button
+            android:id="@+id/btn_welcome_next"
             android:textFontWeight="700"
             android:text="@string/txt_next"
             android:elevation="0dp"

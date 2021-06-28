@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MedLocator">
-        <activity android:name=".Activities.WelcomeScreen" android:theme="@style/Theme.MedLocator.NoActionBar"/>
+        <activity
+            android:name=".Activities.UserHomeScreen"
+            android:label="@string/title_activity_user_home_screen"
+            android:theme="@style/Theme.MedLocator.NoActionBar"></activity>
+        <activity
+            android:name=".Activities.WelcomeScreen"
+            android:theme="@style/Theme.MedLocator.NoActionBar" />
         <activity
             android:name=".Activities.SplashActivity"
             android:theme="@style/Theme.MedLocator.NoActionBar">

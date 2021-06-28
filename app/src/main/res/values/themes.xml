@@ -12,7 +12,7 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-<!--            Fonts-->
+        <!--            Fonts-->
         <item name="android:fontFamily">@font/josefinsans_variablefont_wght</item>
         <item name="fontFamily">@font/josefinsans_variablefont_wght</item>
     </style>
@@ -24,4 +24,13 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
     </style>
+
+<!--    toolbar styles-->
+    <style name="ToolbarStyle" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:tint">@color/black</item>
+    </style>
+
+    <style name="Theme.MedLocator.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MedLocator.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

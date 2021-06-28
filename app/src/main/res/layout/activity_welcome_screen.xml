@@ -41,6 +41,7 @@
 
 
         <Button
+            android:id="@+id/btn_welcome_next"
             android:text="@string/txt_next"
             android:textColor="@color/white"
             android:textSize="24sp"

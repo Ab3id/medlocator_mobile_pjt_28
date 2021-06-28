@@ -18,6 +18,12 @@
         <item name="fontFamily">@font/josefinsans_variablefont_wght</item>
     </style>
 
+    <!--    toolbar styles-->
+    <style name="ToolbarStyle" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+
+
 
     <!--  style is for the splash screen -->
     <style name="Theme.MedLocator.NoActionBar">
